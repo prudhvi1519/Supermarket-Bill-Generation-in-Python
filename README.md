@@ -1,6 +1,6 @@
 # Supermarket Bill Generation
 
-A simple Python program that simulates a supermarket billing system. It allows customers to select items, specify quantities, and generates a bill with prices, taxes, and a "Thank You" message at the end.
+A simple Python program that simulates a SuperMarket Billing system. It allows customers to select items, specify quantities, and generates a bill with prices, taxes, and a "Thank You" message at the end.
 
 ## Features:
 - View available items and prices.
