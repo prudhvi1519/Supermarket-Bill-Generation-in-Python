@@ -1,10 +1,9 @@
 #Supermaket Bill Generation using Python
 from datetime import datetime
 import time
-import os
 
 # Function to display a moving "Thank You" message
-def marquee_thnq(text="Thank Uhhh!", width=76, delay=0.1):
+def marquee_thnq(text="Thank Uhhh!\tVisit Again...", width=76, delay=0.1):
     text = " "*width + text + " "*width  # Padding the text with spaces
     while True:
         print(text[:width], end="\r")  # Display the message with carriage return to simulate scrolling
