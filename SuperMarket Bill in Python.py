@@ -1,10 +1,9 @@
 #Supermaket Bill Generation using Python
 from datetime import datetime
 import time
-import os
 
 # Function to display a moving "Thank You" message
-def marquee_thnq(text="Thank Uhhh!\tVisit Again...", width=76, delay=0.1):
+def marquee_thnq(text="Thank Uhhh...!", width=76, delay=0.1):
     text = " "*width + text + " "*width  # Padding the text with spaces
     while True:
         print(text[:width], end="\r")  # Display the message with carriage return to simulate scrolling
@@ -98,7 +97,7 @@ if inp2==('yes') and final_amount!=0:  # Executes If there is at least one item 
     print("-"*77)  # Separator for the bill
     print("S.No"," "*8,"ITEM"," "*8,"Quantity"," "*4,"Price")  # Header for the bill
     for i in range(len(price_list)):  # Loop through all the items purchased
-        print(" ",i+1, " "*10, ilist[i]," "*12,qlist[i]," "*8,plist[i])  # Print each item's details
+        print(" ",i+1, " "*9, ilist[i]," "*12,qlist[i]," "*8,plist[i])  # Print each item's details
     print("-"*77)
     print(" "*38,"Total Amount:"," "*10,total_price)  # Total price
     print(" "*38,"GST Amount (13%):"," "*6,f"{gst:.4f}")  # GST amount
