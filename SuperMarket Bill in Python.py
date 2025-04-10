@@ -1,6 +1,7 @@
 #Supermaket Bill Generation using Python
 from datetime import datetime
 import time
+import os
 
 # Function to display a moving "Thank You" message
 def marquee_thnq(text="Thank Uhhh!\tVisit Again...", width=76, delay=0.1):
