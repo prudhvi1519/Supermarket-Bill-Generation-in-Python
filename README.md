@@ -8,7 +8,7 @@
     - Select items to purchase and enter quantities.
     - Automatic calculation of the total amount and GST (13%).
     - Generates a detailed bill with item names, quantities, total price, and GST.
-    - Displays a <b>scrolling</b> "Thank You" message after the bill is generated.
+    - Displays a <p><b>scrolling</b></p> "Thank You" message after the bill is generated.
     
     ## How to Run:
     1. Clone or download the repository.
