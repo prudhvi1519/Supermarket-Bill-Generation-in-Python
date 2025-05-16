@@ -14,7 +14,7 @@
   3. Follow the on-screen instructions to enter your name, select items, and generate the bill.
   
   ## Requirements:
-  - Python 3.x
+  - `Python 3.x`
   
   ## License:
   Open-source, available under the MIT License.
