@@ -10,8 +10,11 @@
   
   ## How to Run:
   1. Clone or download the repository.
-  2. Run the Python script `supermarket_bill.py`.
-  3. Follow the on-screen instructions to enter your name, select items, and generate the bill.
+     ```bash
+     https://github.com/prudhvi1519/Supermarket-Bill-Generation-in-Python.git
+     ```
+  3. Run the Python script `SuperMarket Bill in Python.py`.
+  4. Follow the on-screen instructions to enter your name, select items, and generate the bill.
   
   ## Requirements:
   - `Python 3.x`
